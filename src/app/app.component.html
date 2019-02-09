@@ -8,6 +8,13 @@
   (onDecrease)="updateProgress($event)"
   (onComplete)="countdownFinished()"
   ></app-countdown>
+
+  <div class="initInput">
+    <label for="totalCountdown">Init on:</label>
+    <input id="totalCountdown" type="number" [(ngModel)]="totalCountdown">
+  </div>
+
+
   <button (click)="countdown.startCountdown(); counterProgress=0;">
     Reset Timer
   </button>
