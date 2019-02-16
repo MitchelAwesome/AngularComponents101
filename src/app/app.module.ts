@@ -9,6 +9,8 @@ import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import { CountdownComponent } from './countdown/countdown.component';
 import { TimerComponent } from './timer/timer.component';
 import { DisplayComponent } from './display/display.component';
+import { TimerNativeComponent } from './timer-native/timer.component';
+import { TimerNoneComponent } from './timer-none/timer.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +18,8 @@ import { DisplayComponent } from './display/display.component';
     ProgressBarComponent,
     CountdownComponent,
     TimerComponent,
+    TimerNativeComponent,
+    TimerNoneComponent,
     DisplayComponent
   ],
   imports: [
